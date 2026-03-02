@@ -30,7 +30,7 @@ st.set_page_config(
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(SCRIPT_DIR, "ai_startups.db")
 if not os.path.exists(DB_PATH):
-    subprocess.run(["python", "data_setup.py"], check=True)
+    import data_setup  # runs the script directly, errors will surface
 
 BLUE   = '#2563EB'
 PURPLE = '#7C3AED'

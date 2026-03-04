@@ -2,7 +2,7 @@
 
 A full-stack market intelligence tool tracking 48 AI startups across 19 categories — built as Portfolio Project #3 by Ramilya Bakiyeva.
 
-**Live app:** [ADD]
+**Live app:** [https://ai-startups-rami.streamlit.app/]
 
 ---
 
